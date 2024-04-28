@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #e3e7eb;
+    outline: none;
+}
+body{
+
+    margin: 5%;
+}
+
+/* partie de la page index */
+h1,h2{
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    background: none;
+    color: #ADEFD1FF;
+}
+h2{color: #00203FFF;}
+#page1{
+ 
+    padding: 0px 50px 0px 50px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    place-content: center ;
+    justify-items: center;
+    gap: 80px;
+    margin: auto;
+    background: none;
+
+    box-shadow: -2px -2px 1px 2px #00203FFF,
+                 2px  2px 1px 2px #ADEFD1FF ;
+    border-radius: 20px;
+    width: max-content;
+}
+
+a{
+    background: none;
+    font-size: 100px;
+    color: black;
+    text-decoration: none;
+    box-shadow: -2px -2px 5px 1px #ADEFD1FF,
+    2px 2px 5px 1px #00203FFF ;
+    padding: 2px 30px;
+    margin: 30px 80px;
+    border-radius: 50%;
+   
+}
+#soust{
+    width: 114px;
+    padding-left: 38px;
+}
+
+a:hover{
+    box-shadow: -2px -2px 5px 2px #ADEFD1FF,
+                 2px  2px 5px 5px #00203FFF ;
+}
+
+/* la partie de l'addition */
+form{
+    display: grid;
+    place-content: center ;
+    justify-items: center;
+    grid-template-columns: repeat(2, 300px);
+    gap: 20px;
+    background: #00203FFF;
+    width: max-content;
+    margin:auto;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 5px 2px #ADEFD1FF,
+                 2px  2px 5px 5px #00203FFF ;
+}
+input,label{
+    margin: 10px;
+    height: 40px;
+    border-radius: 20px;
+    text-indent: 10px;
+    background: none;
+    font-size: 22px;
+    color: #ADEFD1FF;
+    border: #ADEFD1FF solid 1px;
+
+}
+#resultat_add,
+#resultat_sous,
+#resultat_mlt,
+#resultat_div{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-weight: bold;
+}
+#calculer,h1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 90%;
+}
+#calculer:active{
+    color: white;
+    border: 4px groove;
+    border-color: #ADEFD1FF;
+}
+label{border: none;}
+
+input:hover{
+    transition-duration: 150ms;
+    border: rgb(228, 224, 224) 4px solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
