@@ -5,7 +5,7 @@ le projet est divisé en trois parties principales:
 
 ##### La partie HTML : qui est composé de 5 fichiers HTML diffèrents qui sont : 
     1. index.html qui permet à l'utilisateur de faire le choix de son operation
-    2. addition.html permet de permet realiser l'addition.
+    2. addition.html permet de realiser l'addition.
     3. soustraction.html permet de realiser la soustraction.
     4. multiplication.html permet de realiser la multiplication.
     5. division.html permet de realise la division.
