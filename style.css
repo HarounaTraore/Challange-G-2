@@ -19,8 +19,8 @@ h1,h2{
     color: #ADEFD1FF;
 }
 h2{color: #00203FFF;}
+
 #page1{
- 
     padding: 0px 50px 0px 50px;
     display: grid;
     grid-template-columns: 100px 100px;
@@ -29,7 +29,11 @@ h2{color: #00203FFF;}
     gap: 80px;
     margin: auto;
     background: none;
-
+    
+    
+    
+    
+    
     box-shadow: -2px -2px 1px 2px #00203FFF,
                  2px  2px 1px 2px #ADEFD1FF ;
     border-radius: 20px;
@@ -58,8 +62,8 @@ a:hover{
                  2px  2px 5px 5px #00203FFF ;
 }
 
-/* la partie de l'addition */
-form{
+/* la partie des opérations */
+#soustraction,#division{
     display: grid;
     place-content: center ;
     justify-items: center;
@@ -74,6 +78,36 @@ form{
     box-shadow: -2px -2px 5px 2px #ADEFD1FF,
                  2px  2px 5px 5px #00203FFF ;
 }
+#addition,#multiplication{
+     display: grid;
+    place-content: center ;
+    justify-items: center;
+    grid-template-columns: repeat(3, 300px);
+    gap: 2px;
+    background: #00203FFF;
+    width: max-content;
+    margin:auto;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 5px 2px #ADEFD1FF,
+                 2px  2px 5px 5px #00203FFF ;    
+}
+#resultat_mlt,
+#resultat_add{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-weight: bold;
+}
+#addition h1,
+#addition #calculer,
+#multiplication #calculer,
+#multiplication h1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 90%
+
+}
 input,label{
     margin: 10px;
     height: 40px;
@@ -85,9 +119,8 @@ input,label{
     border: #ADEFD1FF solid 1px;
 
 }
-#resultat_add,
+
 #resultat_sous,
-#resultat_mlt,
 #resultat_div{
     grid-column-start: 1;
     grid-column-end: 2;
