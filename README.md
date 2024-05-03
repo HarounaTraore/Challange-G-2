@@ -1,5 +1,5 @@
 ### Structure du Projet
-Ce projet une calculatrice simple réalisée avec HTML, CSS, et JavaScript.
+Ce projet de calculatrice simple réalisée avec HTML, CSS, et JavaScript.
 Elle permet à l'utilisateur de faire des opérations de base telles que l'addition, la soustraction, la multiplication et la division.
 le projet est divisé en trois parties principales:
 

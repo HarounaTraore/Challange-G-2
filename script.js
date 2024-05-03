@@ -7,10 +7,6 @@ document.addEventListener("DOMContentLoaded", function(){
             let nbr_add_1 = parseFloat(document.getElementById("nbr_add_1").value);
             let nbr_add_2 = parseFloat(document.getElementById("nbr_add_2").value);
             let nbr_add_3 = parseFloat(document.getElementById("nbr_add_3").value);
-            
-            // if (nbr_add_3==undefined){
-            //     document.getElementById("resultat_add").innerHTML ="Le résultat est égal à : " + parseFloat(nbr_add_1+nbr_add_2)
-            // }
             document.getElementById("resultat_add").innerHTML ="Le résultat est égal à : " + parseFloat(nbr_add_1+nbr_add_2+(nbr_add_3||0))
            
         })
@@ -31,9 +27,6 @@ document.addEventListener("DOMContentLoaded", function(){
             let nbr_mlt_1 = parseFloat(document.getElementById("nbr_mlt_1").value);
             let nbr_mlt_2 = parseFloat(document.getElementById("nbr_mlt_2").value);
             let nbr_mlt_3 = parseFloat(document.getElementById("nbr_mlt_3").value);
-            // if(nbr_mlt_3 === ""){
-            //     document.getElementById("resultat_mlt").innerHTML ="Le résultat est égal à : "+parseFloat(nbr_mlt_1*nbr_mlt_2);
-            // }
             document.getElementById("resultat_mlt").innerHTML ="Le résultat est égal à : "+parseFloat(nbr_mlt_1*nbr_mlt_2*(nbr_mlt_3 || 1));
         })
     }
